@@ -1,0 +1,448 @@
+.content{
+	overflow: hidden;
+}
+.pageleft{
+	width:998px;
+	min-height:300px;
+	/*background: #F1A899;;*/
+}
+.pageleft .details{
+	height:500px;
+	/*background: #F1AC88;*/
+	padding:30px 0 0 10px;
+}
+.pageleft .details .magnifier{
+	height:500px;
+	width:400px;
+	position:relative;
+}
+.magnifier .mainpic img{
+	height:400px;
+	width:400px;
+	cursor:move;
+}
+.marnifier .smallpiclist{
+	width:400px;
+	height:55px;
+	margin-top:10px;
+}
+.magnifier .smallpic img{
+	height:44px;
+	width:44px;
+	padding:2px;
+	border:1px solid #ccc;
+	margin-left:5px;
+}
+
+.magnify{
+	height:400px;
+	width:400px;
+	overflow: hidden;
+	position:absolute;
+	left:410px;
+	display: none;
+	top:0;
+}
+.magnify img{
+	width:800px;
+	height:800px;
+	position:absolute;
+	z-index: 99;
+}
+.magnifier .zhezhao{
+	height:200px;
+	width:200px;
+	position: absolute;
+	background: #F0AD4E;
+	opacity: 0.4;
+	left:0px;
+	top:0px;
+	cursor: move;
+	z-index:99;
+}
+
+
+
+
+
+
+
+
+.buy{
+	height:419px;
+	width:550px;
+	padding-left:10px;
+	box-sizing: border-box;
+	position:relative;
+}
+.buy .price{
+	height:70px;
+	background: url(http://www.hlamall.cn/Public/goods/default/images/detailimg6.jpg);
+	line-height:70px;
+	text-indent: 10px;
+	font-size:12px;
+}
+.buy ul li{
+	height:50px;
+	padding-left:20px;
+	line-height:50px;
+	color:#aaa;
+	font-size:12px;
+	width:100%;
+	float:left;
+	padding-top:10px;
+}
+.buy ul li:nth-child(4) div{
+	height:36px;
+	width:180px;
+	border:1px solid #c40000;
+	float:left;
+	margin-left:20px;
+	text-align: center;
+	line-height:36px;
+	font-size:16px;
+	margin-top:10px;
+}
+.buy ul li:nth-child(4) div:first-child{
+	background: #ffeded;
+	cursor:pointer;
+	color:#cf5f5f;
+}
+.buy li:nth-child(4) div:last-child{
+	background:#c40000;
+	cursor:pointer;
+	color:#fff;
+}
+.buy li:nth-child(5) em{
+	padding-right:20px;
+}
+.jia,.jian{
+	cursor:pointer;
+}
+.tan{
+	height:200px;
+	width:500px;
+	box-sizing:border-box;
+	border:4px solid #ccc;
+	color:#333;
+	background:#fff;
+	padding:40px 80px;
+	position:absolute;
+	left:100px;
+	top:230px;
+}
+.tan>img{
+	margin-top:10px;
+	margin-right:40px;
+}
+.tan>div p:first-child{
+	height:30px;
+	line-height:30px;
+	color:#555;
+	font-size:14px;
+}
+.tan>div p:nth-child(2){
+	height:30px;
+	line-height:30px;
+	font-size:13px;
+}
+.tan>div p:nth-child(2) span{
+	color:#f00;
+}
+.tan>div p:nth-child(3) a{
+	cursor:pointer;
+	float:left;
+	height:30px;
+	width:100px;
+	font-size:14px;
+	line-height:30px;
+	text-align:center;
+	margin-top:10px;
+}
+.tan>div p:nth-child(3) a:first-child{
+	color:#fff;
+	background:#c40000 ;
+}
+.tan>div p:nth-child(3) a:last-child{
+	color:#fff;
+	background:#aaa ;
+	margin-left:15px;
+}
+
+
+
+
+.left_side{
+	width:190px;
+	float:left;
+	/*overflow: hidden;*/;
+	height:2000px;
+	padding-left:5px;
+	
+}
+.left_side>ul{
+	float:left;
+	overflow: hidden;
+	width:190px;
+}
+.left_side>ul>li>a{
+	background:#fbd505;
+	display: block;
+	height:50px;
+	color:#000;
+	text-align: center;
+	line-height:50px;
+}
+.left_side>ul>li>ul>li{
+	width:190px;
+	background:#eee;
+
+	padding:0px 5px;
+	box-sizing: border-box;
+}
+.left_side>ul>li>ul>li>a{
+	display: block;
+	color:rgb(89,89,89);
+	font-size:12px;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px dotted rgb(186,186,187);
+	background:url(http://img10.heilanhome.cn/sources/css_img/cebian_dian.jpg) no-repeat 15px;
+	text-indent: 25px;
+	font-weight: 700;
+}
+.left_side .leftdi{
+	height:100px;
+}
+
+.product_views_in{
+	width:792px;
+	margin-left:5px;
+}
+.product_views_in>ul{
+	height:48px;
+	border:1px solid #e7e7eb;
+	/*padding-left:10px;*/
+}
+.product_views_in>ul>li{
+	font-size:14px;
+	padding:0 20px;
+	height:18px;
+	line-height:18px;
+	margin-top:15px;
+	border-right:1px solid #333;
+	color:#333;
+	float:left;
+}
+.product_views_in>ul>li:first-child{
+	border-top:3px solid #f00;
+	border-left:1px solid #f00;
+	margin-left:-1px;
+	height:48px;
+	line-height:42px;
+	box-sizing:border-box;
+	margin-top:0;
+	border-color:red;
+}
+.view{
+	float:left;
+	padding-left:15px;
+	/*display:none;*/
+}
+
+.comment{
+	float:left;
+	margin-bottom:30px;
+	display:none;
+}
+.comment_title{
+	height:40px;
+	color:#555;
+	text-indent:10px;
+	line-height:40px;width:100%;
+	background: #ddd;
+	font-size:16px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.comment .tab_top{
+	font-size:14px;
+    border: 1px solid #eee;
+    padding-right:10px;
+    padding-left:10px;
+    height:40px;
+    line-height:40px;
+    color:#333;
+    margin-bottom: 10px;
+}
+.comment .tab_top span{
+	color:#dc2829;
+}
+.comment .tab_center{
+	font-size:12px;
+}
+.tab_center table{
+	width:100%;
+	border: 1px solid #eee;
+	border-top:0;
+}
+.tab_center>p{
+	text-indent:10px;
+	border: 1px solid #eee;
+	border-bottom:0;
+	height:30px;
+	line-height:30px;
+}
+.tab_center td{
+	/*border:1px solid #000;*/
+	height:30px;
+}
+.tab_center td div{
+	 display:inline-block;
+	 height:12px;
+	 border:1px solid #ccc;
+	 margin-bottom:-2px;
+	 width:200px;
+}
+.tab_center .t_1{
+	 width:117px;
+	 border-right:1px solid #eee;
+	 text-align: center;
+}
+.tab_center .t_1 p:first-child{
+	height:20px;
+	font-size:14px;
+	color:#dc2829;
+}
+.tab_center .t_1 p:last-child{
+	font-size:30px;
+	color:#dc2829;
+}
+.tab_center .t_2{
+	width:330px;
+	text-align:center;
+	border-right:1px solid #eee;
+}
+.tab_center .t_3{
+	width:200px;
+	text-indent:20px;
+	
+}
+.tab_center .t_4{
+	border-left:1px solid #eee;
+	padding-left:20px;
+}
+.tab_center .t_4 input{
+	background-color: #d2322d;
+    border-color: #ac2925;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.tab_bottom{
+	height:40px;
+	border:1px solid #eee;
+	margin-top:10px;
+}
+.problem{
+	float:left;
+	display: none;
+	margin-bottom:30px;
+}
+.problem p{
+    border-bottom: 1px solid #eee;
+    color: #666;
+    padding-right: 15px;
+    line-height: 20px;
+    height: 50px;
+    font-size: 13px;
+    margin-top:10px;
+}
+.problem>div{
+	
+    height: 120px;
+    line-height: 120px;
+    background-color: #f3f3f3;
+    margin-top: 10px;
+    width: 100%;
+}
+.problem input:first-child{
+	width: 70%;
+	margin-top: 35px;
+	border: 0;
+	padding:5px 10px;
+	line-height: 50px;
+    height: 50px;
+    float: left;
+	display: inline;
+    font-family: inherit;
+	font-size: inherit;
+	margin-left:20px;
+	text-indent:10px;
+}
+.problem input:last-child{
+    width: 20%;
+    margin-top: 35px;
+    background-color: #ff4a01;
+    color: #fff;
+    margin-left: 20px;
+    line-height: 50px;
+    border:0;   
+    height: 50px;
+    float: left;
+    display: inline;
+    padding: 1px 6px;
+}
+
+.pageright{
+	width:150px;
+	padding:0 5px;
+	height:629px;
+	/*background: #777;*/
+	margin-top:30px;
+	border-top:1px dashed #ccc;
+}
+.pageright .title{
+	color:#aaa;
+	font-size:12px;
+	height:16px;
+	width:50px;
+	text-align:center;
+	line-height:16px;
+	margin:0 auto;
+	margin-top:-8px;
+	background:#fff;
+	margin-bottom:10px;
+}
+.pageright>div{
+	margin-bottom:20px;
+}
+.pageright img{
+	height:150px;
+	width:150px;
+}
+.pageright p{
+	height:20px;
+	line-height:20px;
+	color:#555;
+	text-align:center;
+	font-size:12px;
+}
+.pageright span{
+	color:#ff5200;
+}
+
+

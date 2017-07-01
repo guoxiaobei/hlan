@@ -1,0 +1,154 @@
+
+.content{
+	min-height: 500px;
+}
+
+/*.way{*/
+	/*color:#aaa;*/
+	/*text-indent:10px;*/
+	/*border-bottom: 1px solid #ccc;*/
+	/*height:29px;*/
+	/*font-size:12px;*/
+/*}*/
+
+
+.signIn{
+	height:390px;
+	width:573px;
+	border:1px solid #ccc;
+	margin-top:10px;
+	/*padding:50px 0 0 100px;*/
+	box-sizing: border-box;
+}
+.signIn>div:first-child{
+	height:30px;
+	line-height:30px;
+	text-indent: 10px;
+	margin-bottom:50px;
+	font-size:14px;
+	border-bottom:1px solid #ccc;
+	background: #e9e9e9;
+	color:#535353;
+}
+.signIn .wori{
+	padding-left:110px;
+	font-size:12px;
+	line-height:30px;
+}
+.wori label{
+	width:48px;
+	height:30px;
+	display: inline-block;
+
+}
+.wori1 input{
+	height:18px;
+	width:278px;
+	padding:5px 10px;
+	border:1px solid #ccc;
+	margin-left:5px;
+	border-radius:3px;
+}
+.wori2 input{
+	height:18px;
+	width:278px;
+	padding:5px 10px;
+	border:1px solid #ccc;
+	margin-left:5px;
+	border-radius:3px;
+}
+.wori2{
+	margin-top:20px;
+}
+.wori3{
+	padding-left:60px;
+	color:#999;
+	height:30px;
+	line-height:30px;
+	margin-top:15px;
+}
+.wori3 input{
+	margin-top:9px;
+	float:left;
+}
+.wori3 a{
+	padding-left:50px;
+	color:#999;
+}
+.wori4{
+	height:90px;
+	border-top:1px solid #ccc;
+}
+.wori4 p{
+	font-size:12px;
+	padding-left:150px;
+	padding-top:15px;
+}
+.wori41{
+	text-align:center;
+	margin-top:15px;
+}
+#submit{
+	display: block;
+	height:30px;
+	width:80px;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	background:#d9534f;
+	border:1px solid #d43f3a;
+	color:#fff;
+	border-radius:4px;
+	margin-left:150px;
+	margin-top:10px;
+	margin-bottom:50px;
+}
+
+.signUp{
+	height:300px;
+	width:573px;
+	border:1px solid #ccc;
+	margin-top:10px;
+	margin-left:10px;
+	box-sizing: border-box;
+}
+.signUp>div:first-child{
+	height:30px;
+	line-height:30px;
+	text-indent: 10px;
+	margin-bottom:50px;
+	font-size:14px;
+	border-bottom:1px solid #ccc;
+	color:#535353;
+}
+.wokao{
+	padding-left:60px;
+	width:300px;
+	font-size:12px;
+}
+.wokao p{
+	color:#333;
+	margin-bottom:10px;
+}
+.wokao li{
+	height:20px;
+	line-height:20px;
+	font-size:12px;
+	text-indent:20px;
+	color:#999;
+	background: url("http://www.hlamall.cn/Public/logincenter/default/images/logoimg4.jpg") no-repeat left center;
+}
+.wokao>a{
+	display: block;
+	height:30px;
+	width:100px;
+
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	background:#363636;
+	color:#fff;
+	border-radius:4px;
+	margin-top:25px;
+}
+

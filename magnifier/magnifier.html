@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../jQuery/jquery.js" ></script>
+    <!--<script type="text/javascript" src="magnifier.js" ></script>-->
+    <script type="text/javascript">
+        $(function(){
+            console.log($("#smallbox").offset().left)
+            console.log(document.getElementById("smallbox").offsetLeft);
+            var aaa = "smallbox";
+        })
+
+    </script>
+</head>
+<body>
+    <div id="bigbox" style="height:400px;width:400px;border:1px solid #333;position: relative;left:200px;top:200px;">
+        <div id="smallbox" style="height:100px;width:100px; background: #000; position:absolute; top:0px; left:0px;"></div>
+    </div>
+</body>
+</html>

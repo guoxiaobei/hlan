@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="../css/product1.css"/>-->
+    <script type="text/javascript" src="../jQuery/jquery.js"></script>
+    <script type="text/javascript" src="../js/cookie.js"></script>
+    <script type="text/javascript" src="../js/header.js"></script>
+    <script type="text/javascript" src="../js/cart.js"></script>
+    <style type="text/css">
+        .content{
+            min-height:200px;
+            overflow: hidden;
+        }
+        table{
+            border:1px solid #ccc;
+            border-collapse: collapse;
+            color: #333;
+            font-size:14px;
+            margin-top:20px;
+            border-bottom:0;
+        }
+        table thead td{
+            height: 40px;
+            background: #eee;
+            border-right:1px solid #ddd;
+        }
+        table td{
+            text-align:center;
+            line-height:40px;
+            /*border-right: 1px solid #ddd;*/
+        }
+        table tr{
+            border-bottom:1px solid #ddd;
+        }
+        table tbody tr:last-child{
+            border-bottom:0;
+        }
+        .del{
+            display: inline-block;
+            height:20px;
+            width:60px;
+            background:#dc2829;
+            color:#fff;
+            text-align:center;
+            line-height:20px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+        .shuliang div{
+            height:28px;
+            text-align:center;
+            line-height:28px;
+            color:#aaa;
+            float:left;
+        }
+        .shuliang div:first-child{
+            height:28px;
+            width:28px;
+            border:1px solid #aaa;
+            font-size:20px;
+            font-weight: bold;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            margin-left:40px;
+            cursor:pointer;
+        }
+        .shuliang input{
+            float:left;
+            height:28px;
+            width:60px;
+            border:0;
+            text-align:center;
+            border-top:1px solid #aaa;
+            border-bottom:1px solid #aaa;
+        }
+        .shuliang div:last-child{
+            height:28px;
+            width:28px;
+            border:1px solid #aaa;
+            font-size:20px;
+            font-weight: bold;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            cursor:pointer;
+        }
+        ._name>img{
+            height:100px;
+            width:100px;
+            float:left;
+            margin:10px;
+        }
+        ._name>div{
+            float:left;
+            width:260px;
+            height:100px;
+            text-align:left;
+            margin-top:10px;
+        }
+        ._name>div p{
+            line-height:20px;
+            font-size:12px;
+            margin-bottom:5px;
+            color:#aaa;
+        }
+        ._name>div p:first-child{
+            color:#333;
+        }
+
+        .huizong{
+            height:200px;
+            border:1px solid #ddd;
+            margin-bottom:40px;
+            border-top:1px dotted #ddd;
+        }
+        .clearbuy{
+            margin-top:50px;
+            margin-left:20px;
+        }
+        .clearbuy a{
+            display: inline-block;
+            width:70px;
+            height:30px;
+            text-align:center;
+            line-height:30px;
+            font-size:12px;
+            border-radius:5px;
+            margin-right:5px;
+            color:#000;
+        }
+        .clearbuy a:first-child{
+            background:#d2322d;
+            color:#fff;
+        }
+        .jiesuan{
+            margin-right:20px;
+            margin-top:20px;
+        }
+        .jiesuan p{
+            width:220px;
+            height:30px;
+            line-height:30px;
+            text-align:left;
+            text-indent:10px;
+            font-size:14px;
+            padding-right:10px;
+        }
+        .jiesuan p:first-child{
+            background: #ccc;
+            margin:10px 0;
+            color:#c40e18
+        }
+        .jiesuan div{
+            float:right;
+            height:40px;
+            width:120px;
+            line-height:40px;
+            text-align:center;
+            font-size:16px;
+            color:#fff;
+            background:#d2322d;
+            margin-top:5px;
+            cursor:pointer;
+        }
+        .ale{
+            height:200px;
+            width:400px;
+            position: absolute;
+            top:200px;
+            left:480px;
+            z-index:99;
+            background: #fff;
+            font-size:12px;
+            border:2px solid #000;
+        }
+        .ale div:first-child{
+            height:30px;
+            background: #000;
+            color:#fff;
+            line-height:30px;
+            text-indent:10px;
+        }
+        .ale div:nth-child(2){
+            font-size:40px;
+            line-height:80px;
+            height:80px;
+            text-indent:20px;
+            text-align:center;
+        }
+        .ale .delsure,.quxiao{
+            height:40px;
+            /*border:1px solid #000000;*/
+            width:100px;
+            display: inline-block;
+            border-radius:5px;
+            font-size:18px;
+            text-align: center;
+            line-height:40px;
+            color:#fff;
+            background: #c40e18;
+            margin-left:70px;
+            margin-top:20px;
+        }
+        .quxiao{
+            background: #000;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+<div class="header"></div>
+<div class="way wrap">首页>购物车</div>
+<div class="content wrap">
+    <table>
+        <thead>
+            <tr>
+                <td width="400px">商品名称</td>
+                <td width="100px">库存</td>
+                <td width="150px">价格</td>
+                <td width="200px">数量</td>
+                <td width="150px">小计</td>
+                <td width="170px">操作</td>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <div class="huizong">
+        <div class="fl clearbuy"><a href="###" class="goback">继续购物</a><a href="">清空购物袋</a></div>
+        <div class="fr jiesuan">
+            <p>总计</p>
+            <p>商品总数：<span class="fr shangpinshuliang">1</span></p>
+            <p>商品总额：<span class="fr shangpinzonge">￥98:00</span></p>
+            <div>结算</div>
+        </div>
+    </div>
+</div>
+<div class="footer"></div>
+</body>
+</html>

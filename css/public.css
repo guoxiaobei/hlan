@@ -1,0 +1,62 @@
+html,body,h1,h2,h3,h4,h5,h6,em,i,b,p,ul,li,input,img{
+	padding:0;
+	margin:0;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+em,i{
+	font-style: normal;
+}
+img{
+	border:0;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.pa{
+	position: absolute;
+}
+.pr{
+	position: relative;
+}
+.wrap{
+	width:1183px;
+	margin:0 auto;
+}
+
+body{
+	height:100%;
+	width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

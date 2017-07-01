@@ -1,0 +1,138 @@
+/********************top*******************************/
+.top{
+	height:30px;
+	background:#eee;
+	border-bottom:1px solid #ccc;
+	
+}
+.login{
+	height:30px;
+	width:450px;
+	overflow: hidden;
+}
+.login li{
+	float:left;
+	color:#666;
+	font-size:12px;
+	padding:0 3px;
+	line-height:30px;
+}
+.login li a{
+	color:#000;
+	font-weight: bold;
+}
+.login li:nth-child(4){
+	color:#000;
+	font-weight: bold;
+}
+.login li:nth-child(4) a{
+	margin-left:2px;
+	float: left;
+	margin-top:6px;	
+	height:16px;
+	width:16px;
+}
+.sina{
+	background: url(../images/1.jpg);
+}
+.tencent{
+	background: url(../images/2.jpg);
+}
+.taobao{
+	background: url(../images/3.jpg);
+}
+.help{
+	height:30px;
+	width:390px;
+	overflow: hidden;
+}
+.help li{
+	float:left;
+	color:#666;
+	font-size:12px;
+	padding:0 2px;
+	line-height:30px;
+}
+.help li a{
+	color:#666;
+}
+.help div{
+	height:15px;
+	font-size:12px;
+	color:#1582bd;
+	background:#f0f0f0;
+	box-shadow:0 0 1px #000;
+	padding:3px;
+	margin-top:5px;
+	margin-left:5px;
+	cursor:pointer;
+}
+.top a:hover{
+	color:#cb1212;
+	text-decoration: underline;
+}
+/********************nav*******************************/
+.nav{
+	height:143px;
+	background:#fff;
+	padding-top:3px;
+	position: relative;
+	z-index: 99;
+}
+.nav_hd{
+	padding-bottom: 10px;;
+}
+.nav_hd .pos{
+	height:70px;
+	width:60px;
+	overflow: hidden;
+}
+.pos a{
+	float:left;
+	height:42px;
+	width:42px;
+	margin-left:9px;
+	background: url(http://img10.hlamall.cn/sources/ditub.png) no-repeat;
+}
+.pos span{
+	font-size:12px;
+	line-height:28px;
+	height:28px;
+	display: inline-block;
+	width:60px;
+	text-align: center;;
+}
+.logo a{
+	display:block;
+	margin-left:480px;
+	height:109px;
+	width:88px;
+	background:url(../images/4.jpg)
+}
+.nav_hd div:last-child{
+	margin-top:50px;
+	margin-left:310px;
+	height:44px;
+	width:145px;
+	background:url(../images/5.jpg)
+}
+.nav_list{
+	height:30px;
+	width:100%;
+	padding-left:10px;
+}
+.nav_list>ul>li{
+	float:left;
+	height:30px;
+}
+.nav_list>ul>li>a{
+	color:#000;
+	font-size: 14px;
+	display: block;
+	float:left;
+	border-right:1px solid #000;
+	padding:0 15px;
+}
+.nav_list li:last-child a{
+	border:0;
+}
